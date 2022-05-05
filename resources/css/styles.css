@@ -1,26 +1,32 @@
 body {
-  height: 100vh;
-  display: flex;
+  height: 100vh
+  ;display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
 }
 
 .headline {
-  color: greenyellow;
+  color:rgb(255, 0, 0);
 }
 
-.card {
-  background-color: #333;
-  color: #fff;
-  padding: 2rem;
-  border-radius: 30px;
-  font-size: 64px !important;
+.wetterlage{color: rgb(247, 62, 62);}
+.temp{color: rgb(247, 62, 62);
+}
+.search-icon{background-color: rgba(255, 0, 0, 0.664);
+border-radius: 20px;
+padding: 0,3rem;}
+.card{
+  background-color:#e6dc54 ; 
+  padding: 3rem;
+  border-radius: 50px;
 }
 
-.input-field {
-  border-radius: 20px;
-  padding: 0.5rem 1rem;
+.input-field{
+  border-radius: 40px;
+  padding: 0.6rem 1rem;
+
 }
+
