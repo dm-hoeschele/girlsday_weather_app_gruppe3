@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  color: greenyellow;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 30px;
+  font-size: 64px !important;
+}
+
+.input-field {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
